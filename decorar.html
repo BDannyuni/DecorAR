@@ -1,10 +1,29 @@
-<model-viewer src="https://raw.githubusercontent.com/BDannyuni/DecorAR/main/vedbo_design_armchair_by_ikea_-_sillon.glb" 
-              alt="Sillón IKEA"
-              auto-rotate
-              camera-controls
-              ar
-              shadow-intensity="1"
-              style="width: 100%; height: 100%;">
-</model-viewer>
-
-<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DecorAr - Sillón</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: #2F3A32;
+      }
+      model-viewer {
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  </head>
+  <body>
+    <model-viewer
+      src="https://raw.githubusercontent.com/BDannyuni/DecorAR/main/vedbo_design_armchair_by_ikea_-_sillon.glb"
+      alt="Sillón IKEA"
+      ar
+      auto-rotate
+      camera-controls
+      shadow-intensity="1"
+      ar-modes="scene-viewer webxr quick-look"
+    ></model-viewer>
+  </body>
+</html>
