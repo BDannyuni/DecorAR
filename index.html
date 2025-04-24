@@ -246,8 +246,79 @@
 
 html, body {
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
+
+
+@media (max-width: 600px) {
+  .contenido-principal {
+    width: 90%;
+    padding: 20px;
+    top: 10%;
+  }
+
+  .pantalla-principal {
+    padding: 1rem;
+  }
+
+  .galeria {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.8rem;
+  }
+
+  .mueble-card img {
+    max-height: 100px;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .explorar-btn, button {
+    width: 90%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+
+
+.mueble-card {
+  background: white;
+  color: #16162F;
+  padding: 1rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.mueble-card:hover {
+  transform: translateY(-5px);
+}
+
+button {
+  border-radius: 50px;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+#catalogo {
+  position: relative;
+  background: none;
+  overflow-y: auto;
+}
+
+#catalogo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url('assets/img/pantalla_secundaria.jpg') no-repeat center center / cover;
+  filter: blur(8px);
+  z-index: -1;
+  opacity: 0.6;
+}
+
 
   </style>
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
@@ -298,7 +369,7 @@ function mostrarPantalla(id) {
   
   // Cargar catálogo dinámicamente
   const muebles = [
-    { nombre: 'Sillón Vedbo', img: 'img/vedbo.jpg', modelo: 'models/vedbo_design_armchair_by_ikea_-_sillon.glb' },
+  { nombre: 'Sillón Vedbo', img: 'img/vedbo.jpg', modelo: 'models/vedbo_design_armchair_by_ikea_-_sillon.glb' },
     { nombre: 'Silla Minimal', img: 'img/silla.jpg', modelo: 'models/mueble_dejardin.glb' },
     { nombre: 'Silla Minimesamal', img: 'img/silla.jpg', modelo: 'models/ta02_-_mueble_tv.glb' },
     { nombre: 'Silla hot', img: 'img/silla.jpg', modelo: 'models/mueble__01.glb'},
