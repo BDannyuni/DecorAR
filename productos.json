@@ -1,0 +1,164 @@
+[
+  {
+    "nombre": "Estante Minimalista",
+    "descripcion": "Estante vertical con estilo simple y elegante.",
+    "precio": 1200,
+    "imagen": "img/silla.jpg",
+    "categoria": "Estantes",
+    "popular": true,
+    "modelo3d": "../models/mueble__01.glb"
+  },
+  {
+    "nombre": "Silla Jardin",
+    "descripcion": "Silla para Jardin con un cojin muy comodo.",
+    "precio": 3500,
+    "imagen": "img/mesa.jpg",
+    "categoria": "Sillas",
+    "popular": true,
+    "modelo3d": "../models/mueble_dejardin.glb"
+  },
+  {
+    "nombre": "Silla Psicologa",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Sillas",
+    "popular": false,
+    "modelo3d": "../models/vedbo_design_armchair_by_ikea_-_sillon.glb"
+  },
+  {
+    "nombre": "Estante Para Recamara",
+    "descripcion": "Ideal para",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Estantes",
+    "popular": false,
+    "modelo3d": "../models/mueble.glb"
+  },
+  {
+    "nombre": "Estante Para Television",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Estantes",
+    "popular": false,
+    "modelo3d": "../models/ta02_-_mueble_tv.glb"
+  },
+  {
+    "nombre": "Comedor Cuadrado 4 Sillas",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Comedor",
+    "popular": false,
+    "modelo3d": "../models/comedor (1).glb"
+  },
+  {
+    "nombre": "Comedor Circular 4 Sillas Madera",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Comedor",
+    "popular": false,
+    "modelo3d": "../models/comedor.glb"
+  },
+  {
+    "nombre": "Comedor Circular 4 Sillas Cristal",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Comedor",
+    "popular": false,
+    "modelo3d": "../models/comedor_4_puestos_dousty_verde_nat..glb"
+  },
+  {
+    "nombre": "Escritorio Minimalista",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Escritorio",
+    "popular": false,
+    "modelo3d": "../models/minimalist_desk__escritorio_minimalista.glb"
+  },
+  {
+    "nombre": "Silla de Oficina",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Sillas",
+    "popular": false,
+    "modelo3d": "../models/silla_escritorio.glb"
+  },
+  {
+    "nombre": "Estante para Tv Madera",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Estantes",
+    "popular": false,
+    "modelo3d": "../models/mueble_para_tv.glb"
+  },
+  {
+    "nombre": "Sofa De Tela gris",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Sofa",
+    "popular": false,
+    "modelo3d": "../models/sofa_48.glb"
+  },
+  {
+    "nombre": "Sofa De Tela Crema",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Sofa",
+    "popular": false,
+    "modelo3d": "../models/sofa_3230.glb"
+  },
+  {
+    "nombre": "Sofa de Piel",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Sofa",
+    "popular": false,
+    "modelo3d": "../models/sofa_web.glb"
+  },
+  {
+    "nombre": "Cama Azul",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Camas",
+    "popular": false,
+    "modelo3d": "../models/cama_azul.glb"
+  },
+  {
+    "nombre": "Cama Oca",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Camas",
+    "popular": false,
+    "modelo3d": "../models/bed.glb"
+  },
+  {
+    "nombre": "Escritorio Madera",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Camas",
+    "popular": false,
+    "modelo3d": "../models/escritorio_praga_180x70x79cm_madera_teak_natural.glb"
+  },
+  {
+    "nombre": "Lampara",
+    "descripcion": "Silla para sentirse como un verdadero",
+    "precio": 2400,
+    "imagen": "img/estante.jpg",
+    "categoria": "Decoracion",
+    "popular": false,
+    "modelo3d": "../models/lampara_hexagonal_export.glb"
+  }
+]
