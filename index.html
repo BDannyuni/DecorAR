@@ -13,7 +13,9 @@
   <header>
     <h1>Muebles Modernos</h1>
   </header>
-  <section class="banner">✨ Encuentra el mueble ideal para tu hogar</section>
+  <section class="banner">✨ Encuentra el mueble ideal para tu hogar
+  <button id="btn-instalar" style="display:none;">📲 Instalar App</button>
+</section>
   <section>
     <h2>🪑 Muebles Populares</h2>
     <div id="populares-container" class="grid"></div>
@@ -28,6 +30,30 @@
     <div id="productos-container" class="grid"></div>
   </section>
   <script src="scripts.js"></script>
+  <script>
+let deferredPrompt;
+const btnInstalar = document.getElementById('btn-instalar');
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Prevenir que salga automático
+  e.preventDefault();
+  // Guardar el evento
+  deferredPrompt = e;
+  // Mostrar el botón de instalar
+  btnInstalar.style.display = 'block';
+});
+
+btnInstalar.addEventListener('click', async () => {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    console.log(`El usuario eligió: ${outcome}`);
+    deferredPrompt = null;
+    btnInstalar.style.display = 'none';
+  }
+});
+
+  </script> 
   <script>
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker.register("/service-worker.js")
