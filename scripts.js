@@ -67,3 +67,17 @@ document.addEventListener("DOMContentLoaded", async () => {
     console.error("Error al cargar los productos:", error);
   }
 });
+
+
+function esIOS() {
+  return /iphone|ipad|ipod/i.test(window.navigator.userAgent);
+}
+
+function mostrarInstruccionesIOS() {
+  const instrucciones = document.getElementById('instrucciones-ios');
+  instrucciones.style.display = 'block';
+}
+
+if (esIOS()) {
+  mostrarInstruccionesIOS();
+}
