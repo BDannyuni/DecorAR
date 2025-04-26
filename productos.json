@@ -6,7 +6,7 @@
     "imagen": "img/silla.jpg",
     "categoria": "Estantes",
     "popular": true,
-    "modelo3d": "../models/mueble__01.glb"
+    "modelo3d": "models/mueble__01.glb"
   },
   {
     "nombre": "Silla Jardin",
@@ -15,7 +15,7 @@
     "imagen": "img/mesa.jpg",
     "categoria": "Sillas",
     "popular": true,
-    "modelo3d": "../models/mueble_dejardin.glb"
+    "modelo3d": "models/mueble_dejardin.glb"
   },
   {
     "nombre": "Silla Psicologa",
@@ -24,7 +24,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Sillas",
     "popular": false,
-    "modelo3d": "../models/vedbo_design_armchair_by_ikea_-_sillon.glb"
+    "modelo3d": "models/vedbo_design_armchair_by_ikea_-_sillon.glb"
   },
   {
     "nombre": "Estante Para Recamara",
@@ -33,7 +33,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Estantes",
     "popular": false,
-    "modelo3d": "../models/mueble.glb"
+    "modelo3d": "models/mueble.glb"
   },
   {
     "nombre": "Estante Para Television",
@@ -42,7 +42,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Estantes",
     "popular": false,
-    "modelo3d": "../models/ta02_-_mueble_tv.glb"
+    "modelo3d": "models/ta02_-_mueble_tv.glb"
   },
   {
     "nombre": "Comedor Cuadrado 4 Sillas",
@@ -51,7 +51,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Comedor",
     "popular": false,
-    "modelo3d": "../models/comedor (1).glb"
+    "modelo3d": "models/comedor (1).glb"
   },
   {
     "nombre": "Comedor Circular 4 Sillas Madera",
@@ -60,7 +60,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Comedor",
     "popular": false,
-    "modelo3d": "../models/comedor.glb"
+    "modelo3d": "models/comedor.glb"
   },
   {
     "nombre": "Comedor Circular 4 Sillas Cristal",
@@ -69,7 +69,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Comedor",
     "popular": false,
-    "modelo3d": "../models/comedor_4_puestos_dousty_verde_nat..glb"
+    "modelo3d": "models/comedor_4_puestos_dousty_verde_nat..glb"
   },
   {
     "nombre": "Escritorio Minimalista",
@@ -78,7 +78,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Escritorio",
     "popular": false,
-    "modelo3d": "../models/minimalist_desk__escritorio_minimalista.glb"
+    "modelo3d": "models/minimalist_desk__escritorio_minimalista.glb"
   },
   {
     "nombre": "Silla de Oficina",
@@ -87,7 +87,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Sillas",
     "popular": false,
-    "modelo3d": "../models/silla_escritorio.glb"
+    "modelo3d": "models/silla_escritorio.glb"
   },
   {
     "nombre": "Estante para Tv Madera",
@@ -96,7 +96,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Estantes",
     "popular": false,
-    "modelo3d": "../models/mueble_para_tv.glb"
+    "modelo3d": "models/mueble_para_tv.glb"
   },
   {
     "nombre": "Sofa De Tela gris",
@@ -105,7 +105,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Sofa",
     "popular": false,
-    "modelo3d": "../models/sofa_48.glb"
+    "modelo3d": "models/sofa_48.glb"
   },
   {
     "nombre": "Sofa De Tela Crema",
@@ -114,7 +114,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Sofa",
     "popular": false,
-    "modelo3d": "../models/sofa_3230.glb"
+    "modelo3d": "models/sofa_3230.glb"
   },
   {
     "nombre": "Sofa de Piel",
@@ -123,7 +123,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Sofa",
     "popular": false,
-    "modelo3d": "../models/sofa_web.glb"
+    "modelo3d": "models/sofa_web.glb"
   },
   {
     "nombre": "Cama Azul",
@@ -132,7 +132,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Camas",
     "popular": false,
-    "modelo3d": "../models/cama_azul.glb"
+    "modelo3d": "models/cama_azul.glb"
   },
   {
     "nombre": "Cama Oca",
@@ -141,7 +141,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Camas",
     "popular": false,
-    "modelo3d": "../models/bed.glb"
+    "modelo3d": "models/bed.glb"
   },
   {
     "nombre": "Escritorio Madera",
@@ -150,7 +150,7 @@
     "imagen": "img/estante.jpg",
     "categoria": "Camas",
     "popular": false,
-    "modelo3d": "../models/escritorio_praga_180x70x79cm_madera_teak_natural.glb"
+    "modelo3d": "models/escritorio_praga_180x70x79cm_madera_teak_natural.glb"
   },
   {
     "nombre": "Lampara",
@@ -159,6 +159,6 @@
     "imagen": "img/estante.jpg",
     "categoria": "Decoracion",
     "popular": false,
-    "modelo3d": "../models/lampara_hexagonal_export.glb"
+    "modelo3d": "models/lampara_hexagonal_export.glb"
   }
 ]
